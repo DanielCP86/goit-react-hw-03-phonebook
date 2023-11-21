@@ -1,0 +1,42 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+label {
+  color: black;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+input {
+  color: black;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  border: 2px solid lightgray;
+}
+
+form > button {
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+  padding: 15px;
+  border: 2px solid lightgray;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+}
+
+form > button:hover {
+  background-color: blue;
+}
+
+input:focus {
+  box-shadow: inset 0px 0px 8px 0px blue;
+}
